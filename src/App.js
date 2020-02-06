@@ -10,17 +10,11 @@ export default class App extends Component {
     return (
       <div className="App container">
         <Navbar bg="light" expand="lg">
-
-        <Navbar bg="light" expand="lg">
-
           <Navbar.Brand>
             <Link to="/">Fisher Bookstore</Link>
           </Navbar.Brand>
         </Navbar> 
-
         <Routes />
-
-
       </div>
     );
   }
