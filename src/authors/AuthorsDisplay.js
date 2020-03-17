@@ -10,7 +10,7 @@ export default function AuthorsDisplay(props) {
             <BootstrapTable data = { props.author } bordered  = { true } striped hover condensed>
                 <TableHeaderColumn dataField='id' isKey={ true }>Author Id</TableHeaderColumn>
                 <TableHeaderColumn dataField="name">Name</TableHeaderColumn>
-                <TableHeaderColumn dataField="books">Last Name</TableHeaderColumn>
+                <TableHeaderColumn dataField="books">Books</TableHeaderColumn>
             </BootstrapTable>
         </div>
     );
